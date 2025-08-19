@@ -1,0 +1,35 @@
+body {
+    background-color: hsl(196, 27%, 37%);
+    color:rgb(167, 79, 38);
+    font-size: 150%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+a:link {
+    color:rgba(201, 110, 87, 0.993);
+}
+a:visited {
+    color:crimson;
+}
+a:hover {
+    color:darkgreen;
+}
+a:active {
+    color:gold;
+}
+
+h1 {
+    background-color: azure;
+}
+
+.about-image {
+    max-width: 30%;
+    margin: auto;
+    display: block;
+}
+
+.home-image {
+    max-width: 40%;
+    margin-left: 55%;
+    display: block;
+}
