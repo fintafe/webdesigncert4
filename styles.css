@@ -3,8 +3,12 @@ body {
     color:rgb(0, 0, 0);
     font-size: 150%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    background-image: url(https://cdn.wcs.org/2024/03/13/21/14/05/2d2c6f1b-71c4-4390-b7e2-deb21a0bc11f/shutterstock_2331893385.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 a:link {
     color:rgba(201, 110, 87, 0.993);
 }
@@ -19,18 +23,20 @@ a:active {
 }
 
 h1 {
-    background-color: azure;
+    background-color: rgb(78, 155, 155);
+    padding: 10px;
+    text-align:center
 }
 
 .about-image {
     max-width: 30%;
-    margin: auto;
-    display: block;
+    margin-left: auto;
+    display: block; 
 }
 
 .home-image {
-    max-width: 30%;
-    margin-left: 35%;
+    max-width: 100%;
+    margin: auto;
     display: block;
 }
 
@@ -45,4 +51,25 @@ h1 {
   font-family: sans-serif;
   width: 70%;
   color: rgb(182, 177, 177);
+}
+
+.container {
+    background-color: aqua;
+    padding: 8px;
+    display: flex;
+    min-height: 150px;
+
+}
+
+.item {
+    background-color: beige ;
+    padding: 3px;
+    border:solid goldenrod;
+    width: 400px;
+}
+
+.item:nth-child(3){
+    background-color: rgb(94, 28, 28);
+    order: 1;
+    align-self: baseline;
 }
